@@ -1,16 +1,64 @@
-# React + Vite
+# Harbour Space Apprenticeship Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frontend implementation of the Apprenticeship Programme template challenge.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* React
+* Vite
+* Tailwind CSS
+* JavaScript
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Responsive design for desktop, iPad and iPad Pro
+* API integration
+* State management
+* Interactive UI components
+* Micro interactions and animations
+* Component-based architecture
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clone the repository:
+
+```bash
+git clone https://github.com/nadasaad512/harbour-space-apprenticeship-challenge.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the project:
+
+```bash
+npm run dev
+```
+
+Run tests:
+
+```bash
+npm test
+```
+
+## Project Structure
+
+```
+src/
+ ├── components/
+ ├── services/
+ ├── assets/
+ ├── App.jsx
+ └── main.jsx
+```
+
+## API Integration
+
+The project consumes the provided Apprenticeship Programme API and manages the received data inside the React application.
+
+## Pull Request Workflow
+
+The project was developed using a feature branch workflow and submitted through a Pull Request.
