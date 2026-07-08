@@ -8,7 +8,6 @@ Frontend implementation of the Apprenticeship Programme template challenge.
 * Vite
 * Tailwind CSS
 * JavaScript
-* React Testing Library / Vitest (if tests are included)
 
 ## Features
 
